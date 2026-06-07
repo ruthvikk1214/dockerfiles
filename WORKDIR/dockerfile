@@ -1,0 +1,4 @@
+FROM redhat/ubi9
+RUN mkdir /app
+WORKDIR /app
+RUN echo "This is the WORKDIR demo" > /app/demo.txt
