@@ -1,0 +1,3 @@
+FROM redhat/ubi9
+
+LABEL "name"="demo" "version"="1.0"
