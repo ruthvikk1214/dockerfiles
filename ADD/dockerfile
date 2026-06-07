@@ -1,0 +1,3 @@
+FROM redhat/ubi9    
+
+ADD https://raw.githubusercontent.com/ruthvikk1214/dockerfiles/refs/heads/main/COPY/dockerfile /tmp
